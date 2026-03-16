@@ -2,6 +2,8 @@
 
 A minimal static blog built with [Eleventy (11ty)](https://www.11ty.dev/) and [Bun](https://bun.sh/). This project is containerized with Docker and ready for deployment with Nginx and Cloudflare Tunnels.
 
+**Live Site:** [kaizan.io.vn](https://kaizan.io.vn)
+
 ## Features
 
 -   🚀 **Fast Build:** Powered by Bun for efficient package management and build processes.
