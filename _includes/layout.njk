@@ -8,10 +8,33 @@
   <link rel="stylesheet" href="/css/simple.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link href="https://unpkg.com/prismjs@1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+  
+  <!-- SEO & Social Media Meta Tags -->
+  <meta property="og:title" content="{{ title }} - Kaizan Blog">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:image" content="https://kaizan.io.vn/images/logo.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title }} - Kaizan Blog">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:image" content="https://kaizan.io.vn/images/logo.jpg">
+
+  <!-- JSON-LD for Logo -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "https://kaizan.io.vn",
+    "logo": "https://kaizan.io.vn/images/logo.jpg"
+  }
+  </script>
 </head>
 <body>
   <header>
-    <h1>kaizan.io.vn</h1>
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <a href="/"><img src="/images/logo.jpg" alt="Kaizan Logo" style="width: 50px; height: 50px; border-radius: 50%;"></a>
+      <h1>kaizan.io.vn</h1>
+    </div>
     <nav>
       <a href="/">Home</a>
       <a href="/about/">About</a>
